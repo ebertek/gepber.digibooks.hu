@@ -10,6 +10,29 @@
   $e = $_GET['e'];
   $location = $_GET['location'];
 
+  function telClean($phone) {
+    $tel=preg_replace("/[^0-9]/", "", $phone);
+    if (substr($tel, 0, 2) === '06') {
+      $tel = '3' . substr($tel, 1);
+    }
+    if (strlen($tel) < 10) {
+      $tel = '36' . $tel;
+    }
+    if (preg_match('/^(\d{2})(\d{2})(\d{3})(\d{4})$/', $tel, $tel2)) {
+      return '+' . $tel2[1] . ' ' . $tel2[2] . ' ' . $tel2[3] . ' ' . $tel2[4];
+    } else
+    if (preg_match('/^(\d{2})(1)(\d{3})(\d{4})$/', $tel, $tel2)) {
+      return '+' . $tel2[1] . ' ' . $tel2[2] . ' ' . $tel2[3] . ' ' . $tel2[4];
+    } else
+    if (preg_match('/^(\d{2})(\d{2})(\d{3})(\d{3})$/', $tel, $tel2)) {
+      return '+' . $tel2[1] . ' ' . $tel2[2] . ' ' . $tel2[3] . ' ' . $tel2[4];
+    } else {
+      return $phone;
+    }
+  }
+  $t = telClean($t);
+  $f = telClean($f);
+  $m = telClean($m);
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu-HU" lang="hu-HU">
