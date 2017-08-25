@@ -60,7 +60,7 @@
         <?php if ($f != '') { echo('<p style="margin: 0px;">Fax: ' . $f . '</p>'); } ?>
         <?php if ($m != '') { echo('<p style="margin: 0px;">Mobil: ' . $m . '</p>'); } ?>
         <?php if ($s != '') { echo('<p style="margin: 0px;">Skype: ' . $s . '</p>'); } ?>
-        <p style="margin: 0px;"><a href="mailto:<?php echo "$e"; ?>"><?php echo "$e"; ?></a></p>
+        <p style="margin: 0px;"><a href="mailto:<?php echo "$e"; ?>" style="color: #002672;"><?php echo "$e"; ?></a></p>
         <p style="margin: 0px;">&nbsp;</p>
       </div>
       <div style="font-weight: 900;">
