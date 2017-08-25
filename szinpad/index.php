@@ -52,7 +52,7 @@
             <tr>
               <td><label for="f">Fax: </label>
               </td>
-              <td><input type="tel" name="f" />
+              <td><input type="tel" name="f" value="+36 1 445 4820" />
               </td>
             </tr>
             <tr>
