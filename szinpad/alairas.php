@@ -9,9 +9,8 @@
   $m = $_GET['m'];
   $s = $_GET['s'];
   $e = $_GET['e'];
-  $location = $_GET['location'];
 
-  function telClean(&$phone) {
+  function telClean($phone) {
     $tel=preg_replace("/[^0-9]/", "", $phone);
     if (substr($tel, 0, 2) === '06') {
       $tel = '3' . substr($tel, 1);
@@ -31,9 +30,9 @@
       return $phone;
     }
   }
-  telClean($t);
-  telClean($f);
-  telClean($m);
+  $t = telClean($t);
+  $f = telClean($f);
+  $m = telClean($m);
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu-HU" lang="hu-HU">

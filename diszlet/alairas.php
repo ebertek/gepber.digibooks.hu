@@ -8,9 +8,8 @@
   $m = $_GET['m'];
   $s = $_GET['s'];
   $e = $_GET['e'];
-  $location = $_GET['location'];
 
-  function telClean(&$phone) {
+  function telClean($phone) {
     $tel=preg_replace("/[^0-9]/", "", $phone);
     if (substr($tel, 0, 2) === '06') {
       $tel = '3' . substr($tel, 1);
@@ -30,8 +29,8 @@
       return $phone;
     }
   }
-  telClean($t);
-  telClean($m);
+  $t = telClean($t);
+  $m = telClean($m);
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu-HU" lang="hu-HU">
@@ -43,6 +42,10 @@
 
   <body style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; color: #000; -webkit-font-smoothing: antialiased;">
         <div style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; color: #000; -webkit-font-smoothing: antialiased;">
+      <div>
+        <p style="margin: 0px;">Üdvözlettel / Best Regards:</p>
+        <p style="margin: 0px;">&nbsp;</p>
+      </div>
       <div style="font-weight: 900;">
         <p style="margin: 0px;"><span style="text-transform: uppercase;"><?php echo "$name"; ?></span><br />
           <?php echo "$position"; if ($position_en != '') { echo (' / ' . $position_en); } ?>
