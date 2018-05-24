@@ -72,16 +72,17 @@
         <a href="https://www.ipaf.org"><img id="ipaf" style="width: 48px; border: 0px; vertical-align: middle;" src="https://www.gepber.hu/img/ipaf.jpg" alt="IPAF Member" /></a>
         <a href="https://www.facebook.com/gepberhungaria"><img id="fb" style="width: 24px; border: 0px; vertical-align: middle;" src="https://www.gepber.hu/img/fb.png" alt="Facebook" /></a>
       </div>
-      <div style="color: #999999;">
-        <hr style="border: 0px; color: #999999; background-color: #999999; height: 1px;" />
+      <div style="color: #777777;">
+        <hr style="border: 0px; color: #777777; background-color: #777777; height: 1px;" />
         <p style="margin: 0px;"><i>A Gépbér Hungária Kft. Általános Szerződéses Feltételei felelősségkorlátozást tartalmaznak, továbbá alkalmazásra kell, hogy kerüljenek minden egyes, a Gépbér Hungária Kft.-vel kapcsolatos árajánlat, szerződés, valamint egyéb jogviszony esetén. A szóban forgó általános szerződéses feltételek hozzáférhetők, kinyomtathatók, valamint letölthetők a <a href="https://gepber.hu/hu/downloads">www.gepber.hu</a> címről.</i><br />
         <i>A Gépbér Hungária Kft. bejegyzett székhelye Kecskeméten található, továbbá a cég a 03-09-108514-es cégjegyzékszámon szerepel a Bács-Kiskun Megyei Kereskedelmi és Iparkamara Cégnyilvántartásában.</i></p>
         <p style="margin: 0px;">&nbsp;</p>
         <p style="margin: 0px;"><i>Gépbér Hungária Kft. general terms and condition contain a limitation of liability and are applicable to all quotations, contracts and other legal relationships with Gépbér Hungária Kft. These general terms and conditions can be accessed, printed and downloaded at <a href="https://gepber.hu/en/downloads">www.gepber.hu</a>.</i><br />
         <i>Gépbér Hungária Kft. has its registered office in Kecskemét and is listed in the Commercial Register of the Chamber of Commerce in Bács-Kiskun under file number 03-09-108514.</i></p>
+        <p style="margin: 0px;">&nbsp;</p>
         <p style="margin: 0px;">Disclaimer: <a href="https://www.tvh.com/glob/en/email-disclaimer">https://www.tvh.com/glob/en/email-disclaimer</a> <br />
           This message is delivered to all addressees subject to the conditions set forth in the attached disclaimer, which is an integral part of this message.</p>
-        <hr style="border: 0px; color: #999999; background-color: #999999; height: 1px;" />
+        <hr style="border: 0px; color: #777777; background-color: #777777; height: 1px;" />
       </div>
     </div>
 
