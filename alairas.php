@@ -62,7 +62,7 @@
       </div>
       <div style="color: #515151;">
         <?php if ($location == 'D') { echo('<p style="margin: 0px;">4031 Debrecen • Richter Gedeon u. 0367/71 hrsz.</p>' . PHP_EOL); } ?>
-        <?php if ($location == 'Gy') { echo('<p style="margin: 0px;">9028 Győr • Juharfa u. 1.</p>' . PHP_EOL); } ?>
+        <?php if ($location == 'Gy') { echo('<p style="margin: 0px;">9028 Győr • Égerfa u. 8.</p>' . PHP_EOL); } ?>
         <?php if ($location != 'Sz') { echo('<p style="margin: 0px;">• Központ:</p>' . PHP_EOL); } ?>
         <p style="margin: 0px;"><?php if ($location != 'Sz') { echo('&nbsp;&nbsp;&nbsp;&nbsp;'); } ?>2310 Szigetszentmiklós • Leshegy út 9/d.</p>
         <p style="margin: 0px;"><?php if ($location != 'Sz') { echo('&nbsp;&nbsp;&nbsp;&nbsp;'); } ?>T +36 24 222 222 • F +36 24 222 221</p>
