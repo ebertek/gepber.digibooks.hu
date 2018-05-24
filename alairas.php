@@ -51,9 +51,9 @@
       <div style="color: #515151;">
         <p style="margin: 0px;"><span style="font-weight: 900;"><?php echo "$position"; if ($position_en != '') { echo (' / ' . $position_en); } ?></span></p>
         <p style="margin: 0px;">&nbsp;</p>
-        <?php if ($t != '') { echo('<p style="margin: 0px;">T ' . $t . '</p>'); } ?>
-        <?php if ($f != '') { echo('<p style="margin: 0px;">F ' . $f . '</p>'); } ?>
-        <?php if ($m != '') { echo('<p style="margin: 0px;">M ' . $m . '</p>'); } ?>
+        <?php if ($t != '') { echo('<p style="margin: 0px;">T ' . $t . '</p>' . PHP_EOL); } ?>
+        <?php if ($f != '') { echo('<p style="margin: 0px;">F ' . $f . '</p>' . PHP_EOL); } ?>
+        <?php if ($m != '') { echo('<p style="margin: 0px;">M ' . $m . '</p>' . PHP_EOL); } ?>
         <p style="margin: 0px;"><a href="mailto:<?php echo "$e"; ?>"><?php echo "$e"; ?></a></p>
       </div>
       <a href="https://www.gepber.hu/"><img id="logo" style="width: 128px; margin: 6px 0px 6px 0px; padding: 2px 0px 2px 0px; border: 0px;" src="https://www.gepber.hu/img/gepber_128.png" alt="Gépbér logó" /></a>
@@ -61,9 +61,9 @@
         <p style="margin: 0px; text-transform: uppercase;">Gépbér Hungária Kft.</p>
       </div>
       <div style="color: #515151;">
-        <?php if ($location == 'D') { echo('<p style="margin: 0px;">4031 Debrecen • Richter Gedeon u. 0367/71 hrsz.</p>'); } ?>
-        <?php if ($location == 'Gy') { echo('<p style="margin: 0px;">9028 Győr • Juharfa u. 1.</p>'); } ?>
-        <?php if ($location != 'Sz') { echo('<p style="margin: 0px;">• Központ:</p>'); } ?>
+        <?php if ($location == 'D') { echo('<p style="margin: 0px;">4031 Debrecen • Richter Gedeon u. 0367/71 hrsz.</p>' . PHP_EOL); } ?>
+        <?php if ($location == 'Gy') { echo('<p style="margin: 0px;">9028 Győr • Juharfa u. 1.</p>' . PHP_EOL); } ?>
+        <?php if ($location != 'Sz') { echo('<p style="margin: 0px;">• Központ:</p>' . PHP_EOL); } ?>
         <p style="margin: 0px;"><?php if ($location != 'Sz') { echo('&nbsp;&nbsp;&nbsp;&nbsp;'); } ?>2310 Szigetszentmiklós • Leshegy út 9/d.</p>
         <p style="margin: 0px;"><?php if ($location != 'Sz') { echo('&nbsp;&nbsp;&nbsp;&nbsp;'); } ?>T +36 24 222 222 • F +36 24 222 221</p>
         <p style="margin: 0px;"><a href="https://www.gepber.hu/">www.gepber.hu</a></p>
