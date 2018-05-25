@@ -1,6 +1,13 @@
 <?php
   header("Expires: Wed, 14 Mar 1990 05:00:00 GMT");
 
+  $csv = array_map('str_getcsv', file('adatok.csv'));
+  $header = array_shift($csv);
+  $adatok = array();
+  foreach($csv as $adat) {
+    $adatok[] = array_combine($header, $adat);
+  }
+
   $id          = $_GET['id'];
   $name        = $_GET['name'];
   $position    = $_GET['position'];
