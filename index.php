@@ -26,6 +26,11 @@
         <fieldset>
           <table>
             <tr>
+              <td><label for="id">Login: </label>
+              </td>
+              <td><input type="text" name="id" />
+              </td>
+            </tr>
               <td><label for="name">Név: </label>
               </td>
               <td><input type="text" name="name" />
@@ -50,12 +55,6 @@
               </td>
             </tr>
             <tr>
-              <td><label for="f">F: </label>
-              </td>
-              <td><input type="tel" name="f" />
-              </td>
-            </tr>
-            <tr>
               <td><label for="m">M: </label>
               </td>
               <td><input type="tel" name="m" />
@@ -64,7 +63,7 @@
             <tr>
               <td><label for="e">E: </label>
               </td>
-              <td><input type="email" name="e" value="@gepber.hu" />
+              <td><input type="email" name="e" placeholder="@gepber.hu" />
               </td>
             </tr>
             <tr>

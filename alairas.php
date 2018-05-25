@@ -1,14 +1,14 @@
 <?php
   header("Expires: Wed, 14 Mar 1990 05:00:00 GMT");
 
-  $name = $_GET['name'];
-  $position = $_GET['position'];
+  $id          = $_GET['id'];
+  $name        = $_GET['name'];
+  $position    = $_GET['position'];
   $position_en = $_GET['position_en'];
-  $t = $_GET['t'];
-  $f = $_GET['f'];
-  $m = $_GET['m'];
-  $e = $_GET['e'];
-  $location = $_GET['location'];
+  $t           = $_GET['t'];
+  $m           = $_GET['m'];
+  $e           = $_GET['e'];
+  $location    = $_GET['location'];
 
   function telClean($phone) {
     $tel=preg_replace("/[^0-9]/", "", $phone);
@@ -43,7 +43,6 @@
   </head>
 
   <body style="font-size: 11px; font-family: Verdana, 'Bitstream Vera Sans', 'DejaVu Sans', Geneva, Tahoma, Arial, sans-serif; color: #515151; -webkit-font-smoothing: antialiased;">
-
     <div style="font-size: 11px; font-family: Verdana, 'Bitstream Vera Sans', 'DejaVu Sans', Geneva, Tahoma, Arial, sans-serif; color: #515151; -webkit-font-smoothing: antialiased;">
       <div style="color: #be1128; font-weight: 900;">
         <p style="margin: 0px; text-transform: uppercase;"><?php echo "$name"; ?></p>
@@ -52,7 +51,6 @@
         <p style="margin: 0px;"><span style="font-weight: 900;"><?php echo "$position"; if ($position_en != '') { echo (' / ' . $position_en); } ?></span></p>
         <p style="margin: 0px;">&nbsp;</p>
         <?php if ($t != '') { echo('<p style="margin: 0px;">T ' . $t . '</p>' . PHP_EOL); } ?>
-        <?php if ($f != '') { echo('<p style="margin: 0px;">F ' . $f . '</p>' . PHP_EOL); } ?>
         <?php if ($m != '') { echo('<p style="margin: 0px;">M ' . $m . '</p>' . PHP_EOL); } ?>
         <p style="margin: 0px;"><a href="mailto:<?php echo "$e"; ?>"><?php echo "$e"; ?></a></p>
       </div>
