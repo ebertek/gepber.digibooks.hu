@@ -1,21 +1,32 @@
 <?php
   header("Expires: Wed, 14 Mar 1990 05:00:00 GMT");
 
-  $csv = array_map('str_getcsv', file('adatok.csv'));
+  $csv    = array_map('str_getcsv', file('adatok.csv'));
   $header = array_shift($csv);
   $adatok = array();
   foreach($csv as $adat) {
     $adatok[] = array_combine($header, $adat);
   }
 
-  $id          = $_GET['id'];
-  $name        = $_GET['name'];
-  $position    = $_GET['position'];
-  $position_en = $_GET['position_en'];
-  $t           = $_GET['t'];
-  $m           = $_GET['m'];
-  $e           = $_GET['e'];
-  $location    = $_GET['location'];
+  $id            = $_GET['id'];
+  if ($id != '') {
+    $key         = array_search($id, array_column($adatok, 'id'));
+    $name        = $adatok[$key]['name'];
+    $position    = $adatok[$key]['position'];
+    $position_en = $adatok[$key]['position_en'];
+    $t           = $adatok[$key]['t'];
+    $m           = $adatok[$key]['m'];
+    $e           = $adatok[$key]['e'];
+    $location    = $adatok[$key]['location'];
+  } else {
+    $name        = $_GET['name'];
+    $position    = $_GET['position'];
+    $position_en = $_GET['position_en'];
+    $t           = $_GET['t'];
+    $m           = $_GET['m'];
+    $e           = $_GET['e'];
+    $location    = $_GET['location'];
+  }
 
   function telClean($phone) {
     $tel=preg_replace("/[^0-9]/", "", $phone);
