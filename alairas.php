@@ -9,8 +9,8 @@
   }
 
   $id            = $_GET['id'];
-  if ($id != '') {
-    $key         = array_search($id, array_column($adatok, 'id'));
+  $key           = array_search($id, array_column($adatok, 'id'));
+  if ($id != '' && $key !== FALSE) {
     $name        = $adatok[$key]['name'];
     $position    = $adatok[$key]['position'];
     $position_en = $adatok[$key]['position_en'];
