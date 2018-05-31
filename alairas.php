@@ -27,7 +27,7 @@
     $e           = $_GET['e'];
     $location    = $_GET['location'];
   }
-  if ($position == '' && $position_en != '') {
+  if ($position == '' && $position_en != '') {
     $position = $position_en;
     $position_en = '';
   }
