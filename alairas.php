@@ -72,8 +72,8 @@
       <div style="color: #515151;">
         <p style="margin: 0px;"><span style="font-weight: 900;"><?php echo "$position"; if ($position_en != '') { echo (' / ' . $position_en); } ?></span></p>
         <p style="margin: 0px;">&nbsp;</p>
-        <?php if ($t != '') { echo('<p style="margin: 0px;">T ' . $t . '</p>' . PHP_EOL); } ?>
-        <?php if ($m != '') { echo('<p style="margin: 0px;">M ' . $m . '</p>' . PHP_EOL); } ?>
+<?php if ($t != '') { echo('        <p style="margin: 0px;">T ' . $t . '</p>' . PHP_EOL); } ?>
+<?php if ($m != '') { echo('        <p style="margin: 0px;">M ' . $m . '</p>' . PHP_EOL); } ?>
         <p style="margin: 0px;"><a href="mailto:<?php echo "$e"; ?>"><?php echo "$e"; ?></a></p>
       </div>
       <a href="https://www.gepber.hu/"><img id="logo" style="width: 128px; margin: 6px 0px 6px 0px; padding: 2px 0px 2px 0px; border: 0px;" src="https://www.gepber.hu/img/gepber_128.png" alt="Gépbér logó" /></a>
