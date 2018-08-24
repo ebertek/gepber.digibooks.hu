@@ -101,6 +101,9 @@
         <a href="https://www.ipaf.org"><img id="ipaf" style="width: 48px; border: 0px; vertical-align: middle;" src="https://www.gepber.hu/img/ipaf.jpg" alt="IPAF Member" /></a>
         <a href="https://www.facebook.com/gepberhungaria"><img id="fb" style="width: 24px; border: 0px; vertical-align: middle;" src="https://www.gepber.hu/img/fb.png" alt="Facebook" /></a>
       </div>
+      <div>
+        <img id="iso9001" style="width: 127px; height: 76px; border: 0px; vertical-align: middle;" src="https://www.gepber.hu/img/iso9001.png" alt="ISO 9001" /> <img id="iso14001" style="width: 127px; height: 76px; border: 0px; vertical-align: middle;" src="https://www.gepber.hu/img/iso14001.png" alt="ISO 14001" />
+      </div>
       <div style="color: #777777;">
         <hr style="border: 0px; color: #777777; background-color: #777777; height: 1px;" />
         <p style="margin: 0px;"><i>A Gépbér Hungária Kft. Általános Szerződéses Feltételei felelősségkorlátozást tartalmaznak, továbbá alkalmazásra kell, hogy kerüljenek minden egyes, a Gépbér Hungária Kft.-vel kapcsolatos árajánlat, szerződés, valamint egyéb jogviszony esetén. A szóban forgó általános szerződéses feltételek hozzáférhetők, kinyomtathatók, valamint letölthetők a <a href="https://gepber.hu/hu/downloads">www.gepber.hu</a> címről.</i><br />
