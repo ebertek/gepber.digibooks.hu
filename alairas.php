@@ -101,10 +101,10 @@
       </div>
       <div>
         <a href="https://www.ipaf.org"><img id="ipaf" style="width: 48px; border: 0px; vertical-align: middle;" src="<?php echo "$baseurl"; ?>/ipaf.jpg" alt="IPAF Member" /></a>
-        <a href="https://www.facebook.com/gepberhungaria"><img id="fb" style="width: 24px; border: 0px; vertical-align: middle;" src="<?php echo "$baseurl"; ?>/fb.png" alt="Facebook" /></a>
+        <a href="https://www.facebook.com/gepberhungaria"><img id="fb" style="width: 24px; border: 0px; vertical-align: middle;" src="<?php echo "$baseurl"; ?>/fb.png" srcset="<?php echo "$baseurl"; ?>/fb.png 1x, <?php echo "$baseurl"; ?>/fb_@2X.png 2x" alt="Facebook" /></a>
       </div>
       <div>
-        <img id="iso9001" style="width: 127px; height: 76px; border: 0px; vertical-align: middle;" src="<?php echo "$baseurl"; ?>/iso9001.png" alt="ISO 9001" /> <img id="iso14001" style="width: 127px; height: 76px; border: 0px; vertical-align: middle;" src="<?php echo "$baseurl"; ?>/iso14001.png" alt="ISO 14001" />
+        <img id="iso9001" style="width: 127px; height: 76px; border: 0px; vertical-align: middle;" src="<?php echo "$baseurl"; ?>/iso9001.png" srcset="<?php echo "$baseurl"; ?>/iso9001.png 1x, <?php echo "$baseurl"; ?>/iso9001_@2X.png 2x" alt="ISO 9001" /> <img id="iso14001" style="width: 127px; height: 76px; border: 0px; vertical-align: middle;" src="<?php echo "$baseurl"; ?>/iso14001.png" srcset="<?php echo "$baseurl"; ?>/iso14001.png 1x, <?php echo "$baseurl"; ?>/iso14001_@2X.png 2x" alt="ISO 14001" />
       </div>
       <div style="color: #777777;">
         <hr style="border: 0px; color: #777777; background-color: #777777; height: 1px;" />
