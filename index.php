@@ -75,6 +75,14 @@
                 <input type="radio" name="location" value="Sz" checked="checked" /> Szigetszentmiklós
               </td>
             </tr>
+            <tr>
+              <td><label for="baseurl">URL: </label>
+              </td>
+              <td>
+                <input type="radio" name="baseurl" value="https://www.gepber.hu/img" checked="checked" /> https://www.gepber.hu/img<br />
+                <input type="radio" name="baseurl" value="http://gepber.digibooks.hu/img" /> http://gepber.digibooks.hu/img<br />
+              </td>
+            </tr>
           </table>
           <input type="submit">
         </fieldset>

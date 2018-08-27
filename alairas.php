@@ -32,6 +32,8 @@
     $position_en = '';
   }
 
+  $baseurl = $_GET['baseurl'];
+
   function telClean($phone) {
     $tel=preg_replace("/[^0-9]/", "", $phone);
     if (substr($tel, 0, 2) === '06') {
@@ -76,7 +78,7 @@
 <?php if ($m != '') { echo '        <p style="margin: 0px;">M ' . $m . '</p>' . PHP_EOL; } ?>
         <p style="margin: 0px;"><a href="mailto:<?php echo "$e"; ?>"><?php echo "$e"; ?></a></p>
       </div>
-      <a href="https://www.gepber.hu/"><img id="logo" style="width: 128px; margin: 6px 0px 6px 0px; padding: 2px 0px 2px 0px; border: 0px;" src="https://www.gepber.hu/img/gepber_128.png" alt="Gépbér logó" /></a>
+      <a href="https://www.gepber.hu/"><img id="logo" style="width: 128px; margin: 6px 0px 6px 0px; padding: 2px 0px 2px 0px; border: 0px;" src="<?php echo "$baseurl"; ?>/gepber_128.png" alt="Gépbér logó" /></a>
       <div style="color: #be1128; font-weight: 900;">
         <p style="margin: 0px; text-transform: uppercase;">Gépbér Hungária Kft.</p>
       </div>
@@ -98,11 +100,11 @@
         <p style="margin: 0px;"><a href="https://www.gepber.hu/">www.gepber.hu</a></p>
       </div>
       <div>
-        <a href="https://www.ipaf.org"><img id="ipaf" style="width: 48px; border: 0px; vertical-align: middle;" src="https://www.gepber.hu/img/ipaf.jpg" alt="IPAF Member" /></a>
-        <a href="https://www.facebook.com/gepberhungaria"><img id="fb" style="width: 24px; border: 0px; vertical-align: middle;" src="https://www.gepber.hu/img/fb.png" alt="Facebook" /></a>
+        <a href="https://www.ipaf.org"><img id="ipaf" style="width: 48px; border: 0px; vertical-align: middle;" src="<?php echo "$baseurl"; ?>/ipaf.jpg" alt="IPAF Member" /></a>
+        <a href="https://www.facebook.com/gepberhungaria"><img id="fb" style="width: 24px; border: 0px; vertical-align: middle;" src="<?php echo "$baseurl"; ?>/fb.png" alt="Facebook" /></a>
       </div>
       <div>
-        <img id="iso9001" style="width: 127px; height: 76px; border: 0px; vertical-align: middle;" src="https://www.gepber.hu/img/iso9001.png" alt="ISO 9001" /> <img id="iso14001" style="width: 127px; height: 76px; border: 0px; vertical-align: middle;" src="https://www.gepber.hu/img/iso14001.png" alt="ISO 14001" />
+        <img id="iso9001" style="width: 127px; height: 76px; border: 0px; vertical-align: middle;" src="<?php echo "$baseurl"; ?>/iso9001.png" alt="ISO 9001" /> <img id="iso14001" style="width: 127px; height: 76px; border: 0px; vertical-align: middle;" src="<?php echo "$baseurl"; ?>/img/iso14001.png" alt="ISO 14001" />
       </div>
       <div style="color: #777777;">
         <hr style="border: 0px; color: #777777; background-color: #777777; height: 1px;" />
