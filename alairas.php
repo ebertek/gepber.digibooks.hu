@@ -78,7 +78,7 @@
 <?php if ($m != '') { echo '        <p style="margin: 0px;">M ' . $m . '</p>' . PHP_EOL; } ?>
         <p style="margin: 0px;"><a href="mailto:<?php echo "$e"; ?>"><?php echo "$e"; ?></a></p>
       </div>
-      <a href="https://www.gepber.hu/"><img id="logo" style="width: 128px; height: 24px; margin: 6px 0px 6px 0px; padding: 2px 0px 2px 0px; border: 0px;" width="128" height="24" src="<?php echo "$baseurl"; ?>/gepber_128.png" alt="Gépbér logó" /></a>
+      <a href="https://www.gepber.hu/"><img id="logo" style="width: 128px; height: 24px; margin: 6px 0px 6px 0px; padding: 2px 0px 2px 0px; border: 0px;" width="128" height="24" src="<?php echo "$baseurl"; ?>/gepber_128.png" srcset="<?php echo "$baseurl"; ?>/gepber_128.png 1x, <?php echo "$baseurl"; ?>/gepber_128_@2X.png 2x, <?php echo "$baseurl"; ?>/gepber_128_@3X.png 3x" alt="Gépbér logó" /></a>
       <div style="color: #be1128; font-weight: 900;">
         <p style="margin: 0px; text-transform: uppercase;">Gépbér Hungária Kft.</p>
       </div>
