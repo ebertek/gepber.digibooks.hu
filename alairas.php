@@ -78,7 +78,7 @@
 <?php if ($m != '') { echo '        <p style="margin: 0px;">M ' . $m . '</p>' . PHP_EOL; } ?>
         <p style="margin: 0px;"><a href="mailto:<?php echo "$e"; ?>"><?php echo "$e"; ?></a></p>
       </div>
-      <a href="https://www.gepber.hu/"><img id="logo" style="width: 128px; margin: 6px 0px 6px 0px; padding: 2px 0px 2px 0px; border: 0px;" src="<?php echo "$baseurl"; ?>/gepber_128.png" alt="Gépbér logó" /></a>
+      <a href="https://www.gepber.hu/"><img id="logo" style="width: 128px; height: 24px; margin: 6px 0px 6px 0px; padding: 2px 0px 2px 0px; border: 0px;" width="128" height="24" src="<?php echo "$baseurl"; ?>/gepber_128.png" alt="Gépbér logó" /></a>
       <div style="color: #be1128; font-weight: 900;">
         <p style="margin: 0px; text-transform: uppercase;">Gépbér Hungária Kft.</p>
       </div>
@@ -98,11 +98,13 @@
         <p style="margin: 0px;"><?php if ($location != 'Sz') { echo '&nbsp;&nbsp;&nbsp;&nbsp;'; } ?>2310 Szigetszentmiklós • Leshegy út 9/d.</p>
         <p style="margin: 0px;"><?php if ($location != 'Sz') { echo '&nbsp;&nbsp;&nbsp;&nbsp;'; } ?>T +36 24 222 222 • F +36 24 222 221</p>
         <p style="margin: 0px;"><a href="https://www.gepber.hu/">www.gepber.hu</a></p>
+        <p style="margin: 0px;">&nbsp;</p>
       </div>
       <div>
-        <img id="iso9001" style="width: 60px; height: 36px; border: 0px; vertical-align: middle;" src="<?php echo "$baseurl"; ?>/iso9001.png" srcset="<?php echo "$baseurl"; ?>/iso9001.png 1x, <?php echo "$baseurl"; ?>/iso9001_@2X.png 2x" alt="ISO 9001" /> <img id="iso14001" style="width: 60px; height: 36px; border: 0px; vertical-align: middle;" src="<?php echo "$baseurl"; ?>/iso14001.png" srcset="<?php echo "$baseurl"; ?>/iso14001.png 1x, <?php echo "$baseurl"; ?>/iso14001_@2X.png 2x" alt="ISO 14001" />
-        <a href="https://www.ipaf.org"><img id="ipaf" style="width: 48px; height: 36px; border: 0px; vertical-align: middle;" src="<?php echo "$baseurl"; ?>/ipaf.jpg" alt="IPAF Member" /></a>
-        <a href="https://www.facebook.com/gepberhungaria"><img id="fb" style="width: 24px; border: 0px; vertical-align: middle;" src="<?php echo "$baseurl"; ?>/fb.png" srcset="<?php echo "$baseurl"; ?>/fb.png 1x, <?php echo "$baseurl"; ?>/fb_@2X.png 2x" alt="Facebook" /></a>
+        <img id="iso9001" style="width: 60px; height: 36px; border: 0px; vertical-align: middle;" width="60" height="36" src="<?php echo "$baseurl"; ?>/iso9001.png" srcset="<?php echo "$baseurl"; ?>/iso9001.png 1x, <?php echo "$baseurl"; ?>/iso9001_@2X.png 2x" alt="ISO 9001" />
+        <img id="iso14001" style="width: 60px; height: 36px; border: 0px; vertical-align: middle;" width="60" height="36" src="<?php echo "$baseurl"; ?>/iso14001.png" srcset="<?php echo "$baseurl"; ?>/iso14001.png 1x, <?php echo "$baseurl"; ?>/iso14001_@2X.png 2x" alt="ISO 14001" />
+        <a href="https://www.ipaf.org"><img id="ipaf" style="width: 48px; height: 36px; border: 0px; vertical-align: middle;" width="48" height="36" src="<?php echo "$baseurl"; ?>/ipaf.jpg" alt="IPAF Member" /></a>
+        <a href="https://www.facebook.com/gepberhungaria"><img id="fb" style="width: 24px; height: 24px; border: 0px; vertical-align: middle;" width="24" height="24" src="<?php echo "$baseurl"; ?>/fb.png" srcset="<?php echo "$baseurl"; ?>/fb.png 1x, <?php echo "$baseurl"; ?>/fb_@2X.png 2x" alt="Facebook" /></a>
       </div>
       <div style="color: #777777;">
         <hr style="border: 0px; color: #777777; background-color: #777777; height: 1px;" />
