@@ -67,13 +67,13 @@
       </div>
       <div>
         <p style="margin: 0px;">1095 Budapest • Hajóállomás u. 1.</p>
-        <p style="margin: 0px;"><a href="http://www.gepberszinpad.hu/" style="color: #002672;">www.gepberszinpad.hu</a></p>
+        <p style="margin: 0px;"><a href="https://www.gepberszinpad.hu/" style="color: #002672;">www.gepberszinpad.hu</a></p>
         <p style="margin: 0px;">&nbsp;</p>
         <p style="margin: 0px;">Iroda nyitva tartása:<br />
           Hétfő-péntek: 08:30 - 17:00<br />
         </p>
       </div>
-      <img id="logo" style="width: 184px; margin: 6px 0px 6px 0px; padding: 2px 0px 2px 0px; border: 0px; display:block;" src="http://gepberszinpad.hu/sites/default/files/gepbersz_184.png" alt="Gépbér Színpad logó" /><br/>
+      <img id="logo" style="width: 184px; margin: 6px 0px 6px 0px; padding: 2px 0px 2px 0px; border: 0px; display:block;" src="https://gepberszinpad.hu/sites/default/files/gepbersz_184.png" alt="Gépbér Színpad logó" /><br/>
       <div style="color: #339966;">
         <p style="margin: 0px;"><span style="font-size: 32px; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;">P</span> <i>Think before print.</i></p>
       </div>
