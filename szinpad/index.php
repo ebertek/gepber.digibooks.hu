@@ -44,12 +44,6 @@
               </td>
             </tr>
             <tr>
-              <td><label for="t">Tel.: </label>
-              </td>
-              <td><input type="tel" name="t" />
-              </td>
-            </tr>
-            <tr>
               <td><label for="m">Mobil: </label>
               </td>
               <td><input type="tel" name="m" />
