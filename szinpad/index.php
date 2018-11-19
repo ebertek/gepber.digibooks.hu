@@ -50,12 +50,6 @@
               </td>
             </tr>
             <tr>
-              <td><label for="f">Fax: </label>
-              </td>
-              <td><input type="tel" name="f" value="+36 1 445 4820" />
-              </td>
-            </tr>
-            <tr>
               <td><label for="m">Mobil: </label>
               </td>
               <td><input type="tel" name="m" />

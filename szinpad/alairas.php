@@ -5,7 +5,6 @@
   $position = $_GET['position'];
   $position_en = $_GET['position_en'];
   $t = $_GET['t'];
-  $f = $_GET['f'];
   $m = $_GET['m'];
   $s = $_GET['s'];
   $e = $_GET['e'];
@@ -31,7 +30,6 @@
     }
   }
   $t = telClean($t);
-  $f = telClean($f);
   $m = telClean($m);
 ?>
 <!DOCTYPE html>
@@ -56,7 +54,6 @@
       <div>
         <p style="margin: 0px;">&nbsp;</p>
         <?php if ($t != '') { echo('<p style="margin: 0px;">Tel.: ' . $t . '</p>'); } ?>
-        <?php if ($f != '') { echo('<p style="margin: 0px;">Fax: ' . $f . '</p>'); } ?>
         <?php if ($m != '') { echo('<p style="margin: 0px;">Mobil: ' . $m . '</p>'); } ?>
         <?php if ($s != '') { echo('<p style="margin: 0px;">Skype: <a href="skype:' . $s . '" style="color: #002672;">' . $s . '</a></p>'); } ?>
         <p style="margin: 0px;"><a href="mailto:<?php echo "$e"; ?>" style="color: #002672;"><?php echo "$e"; ?></a></p>
