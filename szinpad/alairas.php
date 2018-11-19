@@ -57,7 +57,7 @@
         <p style="margin: 0px;">&nbsp;</p>
       </div>
       <div style="font-weight: 900;">
-        <p style="margin: 0px; color: #002672;">Gépbér Színpad Kft.</p>
+        <p style="margin: 0px; color: #002672;">Gépbér-Színpad Kft.</p>
       </div>
       <div>
         <p style="margin: 0px;">1048 Budapest • Tenkefürdő u. 5., 1. em.</p>
