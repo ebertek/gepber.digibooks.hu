@@ -60,10 +60,10 @@
         <p style="margin: 0px; color: #002672;">Gépbér Színpad Kft.</p>
       </div>
       <div>
-        <p style="margin: 0px;">1095 Budapest • Hajóállomás u. 1.</p>
+        <p style="margin: 0px;">1048 Budapest • Tenkefürdő u. 5., 1. em.</p>
         <p style="margin: 0px;"><a href="https://www.gepberszinpad.hu/" style="color: #002672;">www.gepberszinpad.hu</a></p>
         <p style="margin: 0px;">&nbsp;</p>
-        <p style="margin: 0px;">Iroda nyitva tartása:<br />
+        <p style="margin: 0px;">Iroda nyitvatartása:<br />
           Hétfő-péntek: 08:30 - 17:00<br />
         </p>
       </div>
