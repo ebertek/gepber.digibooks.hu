@@ -41,7 +41,12 @@
   <body style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; color: #002672; -webkit-font-smoothing: antialiased;">
         <div style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; color: #002672; -webkit-font-smoothing: antialiased;">
       <div>
-        <p style="margin: 0px;">Üdvözlettel / Best Regards:</p>
+        <p style="margin: 0px;">
+          Tisztelt Partnereink/Ügyfeleink,<br/>
+          Irodánk 2019.01.02. – 2019.01.07 között zárva tart. Első munkanapunk: 2019.01.07.<br/>
+          Addig is a honlapunkon lévő elérhetőségeink egyikén bátran kereshetnek bennünket.<br/>
+          Üdvözlettel / Best Regards:
+        </p>
         <p style="margin: 0px;">&nbsp;</p>
       </div>
       <div style="font-weight: 900;">
