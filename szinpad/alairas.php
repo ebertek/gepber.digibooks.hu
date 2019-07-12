@@ -71,7 +71,7 @@
       </div>
       <img id="logo" style="width: 184px; margin: 6px 0px 6px 0px; padding: 2px 0px 2px 0px; border: 0px; display:block;" src="https://gepberszinpad.hu/sites/default/files/gepbersz_184.png" alt="Gépbér Színpad logó" /><br/>
       <div style="color: #339966;">
-        <p style="margin: 0px;"><span style="font-size: 32px; font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;">P</span> <i>Think before print.</i></p>
+        <p style="margin: 0px;"><span style="font-family: Webdings;">P</span> <i>Think before print.</i></p>
       </div>
       <div style="color: #999999; font-size: 10px;">
         <hr style="border: 0px; color: #999999; background-color: #999999; height: 1px;" />
