@@ -42,9 +42,6 @@
         <div style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; color: #002672; -webkit-font-smoothing: antialiased;">
       <div>
         <p style="margin: 0px; font-weight: 700;">
-          Tisztelt Partnereink/Ügyfeleink,<br/>
-          Irodánk 2018.12.22. – 2019.01.07 között zárva tart. Első munkanapunk: 2019.01.07.<br/>
-          Addig is a honlapunkon lévő elérhetőségeink egyikén bátran kereshetnek bennünket.<br/>
           Üdvözlettel / Best Regards:
         </p>
         <p style="margin: 0px;">&nbsp;</p>
