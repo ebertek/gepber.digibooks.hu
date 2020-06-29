@@ -64,7 +64,7 @@
       <div>
         <p style="margin: 0px;">1048 Budapest • Tenkefürdő u. 5., 1. em.</p>
         <p style="margin: 0px;">&nbsp;</p>
-        <p style="margin: 0px;"><a href="http://www.gepberszinpad.com/" style="color: #002672;">www.gepberszinpad.com/</a></p>
+        <p style="margin: 0px;"><a href="http://www.gepberszinpad.com/" style="color: #002672;">www.gepberszinpad.com</a></p>
         <p style="margin: 0px;">&nbsp;</p>
         <p style="margin: 0px;">Iroda nyitvatartása:<br />
           Hétfő-péntek: 08:30 - 17:00<br />
