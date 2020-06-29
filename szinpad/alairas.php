@@ -69,7 +69,7 @@
           Hétfő-péntek: 08:30 - 17:00<br />
         </p>
       </div>
-      <img id="logo" style="width: 184px; margin: 6px 0px 6px 0px; padding: 2px 0px 2px 0px; border: 0px; display:block;" src="https://gepberszinpad.hu/sites/default/files/gepbersz_184.png" alt="GÉPBÉR-Színpad logó" /><br/>
+      <img id="logo" style="width: 184px; margin: 6px 0px 6px 0px; padding: 2px 0px 2px 0px; border: 0px; display:block;" src="https://digibooks.hu/szinpad/gepberszinpad.png" alt="GÉPBÉR-Színpad logó" /><br/>
       <div style="color: #339966;">
         <p style="margin: 0px;"><span style="font-size: 32px; font-family: Webdings;">P</span> <i>Think before print.</i></p>
       </div>
