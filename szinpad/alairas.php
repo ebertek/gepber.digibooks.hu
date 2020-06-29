@@ -35,7 +35,7 @@
 
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Gépbér-Színpad</title>
+    <title>GÉPBÉR-Színpad</title>
   </head>
 
   <body style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; color: #002672; -webkit-font-smoothing: antialiased;">
@@ -59,11 +59,11 @@
         <p style="margin: 0px;">&nbsp;</p>
       </div>
       <div style="font-weight: 900;">
-        <p style="margin: 0px; color: #002672;">Gépbér-Színpad Kft.</p>
+        <p style="margin: 0px; color: #002672;">GÉPBÉR-Színpad Kft.</p>
       </div>
       <div>
         <p style="margin: 0px;">1048 Budapest • Tenkefürdő u. 5., 1. em.</p>
-        <p style="margin: 0px;"><a href="https://www.gepberszinpad.hu/" style="color: #002672;">www.gepberszinpad.hu</a></p>
+        <p style="margin: 0px;"><a href="https://gepberszinpad.com/" style="color: #002672;">https://gepberszinpad.com/</a></p>
         <p style="margin: 0px;">&nbsp;</p>
         <p style="margin: 0px;">Iroda nyitvatartása:<br />
           Hétfő-péntek: 08:30 - 17:00<br />
