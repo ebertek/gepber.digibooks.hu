@@ -7,7 +7,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Gépbér-Színpad aláírások</title>
+    <title>GÉPBÉR-Színpad aláírások</title>
     <meta name="Description" content="Aláírásgeneráló a GÉPBÉR-Színpad Kft.-nek" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
